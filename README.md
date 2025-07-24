@@ -43,14 +43,14 @@ html
 <summary><strong>Linux/macOS</strong></summary>
 
 
-python3 -m venv venv
-source venv/bin/activate
+<li>python3 -m venv venv</li>
+<li></li>source venv/bin/activate</li>
 
 </details><details> <summary><strong>Windows</strong></summary>
 cmd
 
-python -m venv venv
-venv\Scripts\activate
+<li>python -m venv venv</li>
+<li>venv\Scripts\activate</li>
 
 </details><h3>2. Instalar dependências</h3>
 
@@ -73,5 +73,4 @@ python
 
 options.add_argument("--headless=new")
 
-<h2>🛡️ Avisos Importantes</h2><blockquote> ⚠️ Nunca compartilhe senhas reais ou dados sensíveis em repositórios públicos.<br> ⚠️ Use variáveis de ambiente ou arquivos .env para credenciais em produção.<br> ⚠️ Mantenha o ChromeDriver atualizado para evitar problemas de compatibilidade. </blockquote><h2>🔄 Como Desativar o Ambiente Virtual</h2>
-
+<h2>🛡️ Avisos Importantes</h2><blockquote> ⚠️ Nunca compartilhe senhas reais ou dados sensíveis em repositórios públicos.<br> ⚠️ Use variáveis de ambiente ou arquivos .env para credenciais em produção.<br> ⚠️ Mantenha o ChromeDriver atualizado para evitar problemas de compatibilidade. </blockquote>
