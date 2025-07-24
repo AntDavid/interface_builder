@@ -32,6 +32,7 @@ html
   <li>Python 3.8+</li>
   <li>Google Chrome instalado</li>
   <li>ChromeDriver compatível com sua versão do Chrome</li>
+  <LI>selenium==4.9.1</LI>
 </ul>
 
 <h2>⚙️ Configuração do Ambiente</h2>
@@ -41,7 +42,7 @@ html
 <details>
 <summary><strong>Linux/macOS</strong></summary>
 
-```bash
+
 python3 -m venv venv
 source venv/bin/activate
 
@@ -52,7 +53,7 @@ python -m venv venv
 venv\Scripts\activate
 
 </details><h3>2. Instalar dependências</h3>
-bash
+
 
 pip install -r requirements.txt
 
@@ -63,7 +64,7 @@ USERNAME = "seu_usuario"  # Substitua aqui
 PASSWORD = "sua_senha"    # Substitua aqui
 
 </li> <li>Execute o script:
-bash
+
 
 python main.py
 
@@ -72,14 +73,5 @@ python
 
 options.add_argument("--headless=new")
 
-</li> <li>Ajuste os tempos de espera modificando os valores de <code>time.sleep()</code></li> </ul><h2>📝 Arquivo requirements.txt</h2>
-
-
-selenium==4.9.1
-
 <h2>🛡️ Avisos Importantes</h2><blockquote> ⚠️ Nunca compartilhe senhas reais ou dados sensíveis em repositórios públicos.<br> ⚠️ Use variáveis de ambiente ou arquivos .env para credenciais em produção.<br> ⚠️ Mantenha o ChromeDriver atualizado para evitar problemas de compatibilidade. </blockquote><h2>🔄 Como Desativar o Ambiente Virtual</h2>
-bash
 
-deactivate
-
-<h2>❓ Suporte</h2><p>Para problemas ou dúvidas, abra uma <em>issue</em> no repositório.</p> ```
