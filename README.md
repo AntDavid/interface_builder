@@ -20,7 +20,7 @@
 
 <ul>
   <li>✅ Login automático com Selenium WebDriver</li>
-  <li>✅ Cadastro de até 48 interfaces sequenciais</li>
+  <li>✅ Cadastro de sequenciais</li>
   <li>✅ Feedback visual de sucesso ou erro</li>
   <li>✅ Suporte a modo headless</li>
   <li>✅ Preenchimento seguro de campos MAC</li>
@@ -67,7 +67,6 @@ python
 <p>PASSWORD = "sua_senha"    # Substitua aqui</p>
 
 </li> <li>Execute o script:
-
 
 python main.py
 
