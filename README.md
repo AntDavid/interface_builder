@@ -1,4 +1,4 @@
-html
+
 
 <h1 align="center">🔧 Automação de Interfaces - Dpainel</h1>
 
@@ -11,6 +11,7 @@ html
 <p align="center">
   <b>Automatize o cadastro de interfaces de rede no Dpainel com Selenium.</b><br>
   Login automático, preenchimento de formulários e submissão em lote.
+  Objetivo: 
 </p>
 
 <hr>
@@ -43,25 +44,27 @@ html
 <summary><strong>Linux/macOS</strong></summary>
 
 
-<li>python3 -m venv venv</li>
-<li></li>source venv/bin/activate</li>
+<p>python3 -m venv venv</p>
+</p>source venv/bin/activate</p>
 
 </details><details> <summary><strong>Windows</strong></summary>
-cmd
 
-<li>python -m venv venv</li>
-<li>venv\Scripts\activate</li>
+<p>python -m venv venv</p>
+<p>venv\Scripts\activate</p>
 
 </details><h3>2. Instalar dependências</h3>
 
 
 pip install -r requirements.txt
 
-<h3>3. Configurar ChromeDriver</h3><ol> <li>Baixe o ChromeDriver compatível em <a href="https://chromedriver.chromium.org/downloads">chromedriver.chromium.org</a></li> <li>Extraia e coloque o executável em: <ul> <li><code>/usr/local/bin/</code> (Linux/macOS)</li> <li>Ou em qualquer diretório no PATH do sistema</li> </ul> </li> </ol><h2>🚀 Execução</h2><ol> <li>Edite as credenciais no arquivo principal:
+<h3>3. Configurar ChromeDriver</h3><ol> <li>Baixe o ChromeDriver compatível em <a href="https://chromedriver.chromium.org/downloads">chromedriver.chromium.org</a></li> <li>Extraia e coloque o executável em: <ul> <li><code>/usr/local/bin/</code> (Linux/macOS)</li> <li>Ou em qualquer diretório no PATH do sistema</li> </ul> </li> </ol>
+
+<h2>🚀 Execução</h2>
+<ol> <li>Edite as credenciais no arquivo principal:
 python
 
-USERNAME = "seu_usuario"  # Substitua aqui
-PASSWORD = "sua_senha"    # Substitua aqui
+<p>USERNAME = "seu_usuario"  # Substitua aqui</p>
+<p>PASSWORD = "sua_senha"    # Substitua aqui</p>
 
 </li> <li>Execute o script:
 
