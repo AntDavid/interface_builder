@@ -22,8 +22,6 @@
   <li>✅ Login automático com Selenium WebDriver</li>
   <li>✅ Cadastro de sequenciais</li>
   <li>✅ Feedback visual de sucesso ou erro</li>
-  <li>✅ Suporte a modo headless</li>
-  <li>✅ Preenchimento seguro de campos MAC</li>
   <li>✅ Tempo de espera configurável entre ações</li>
 </ul>
 
